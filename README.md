@@ -1,5 +1,9 @@
 # Huffmand encoding and decoding
 ###[Live demo](https://www.google.com)
+
+## Description
+This is a Huffman encoder and decoder project, which can perform 3 functions. The first function will encode the input file and save it in "FILENAME.bin" format. The second function can decode the BIN file created by the first function. Finally the third function with perform both function 1 and 2 sequencially. Python Langugage has been used to write the code.
+
 ## Instruction to run the program:
 1. Download the files named app.py and run.py and save them in the same folder.
 2. Copy the file location. Example is shown below:  
@@ -14,3 +18,12 @@
 10. If only operation 2 is being selected, make sure you have not deleted the "library.txt" file that was created in the same folder as run.py during operation 1.
 11. After the operation is done it will show the completion message followed by the output path.
 
+## About this project:
+1. This project should me able to do Halfman encode and decode for any file format. So far I have tested .txt .jpg .mkv and .rar format.
+2. Multithreading has been used for the encoding part.
+3. It can compress file of any size as long as the disk has enough space.
+3. Decompressing for too large file will give Memory error as I was not able to succesfully implement multithreading and data dumping for large files yet. ( Loss of data was proportional to file size while tried to use multithread for this part.)
+
+## Future scope:
+1. Add multithreadig for decompression also.
+2. Save file format information in bin file so that decompress function can recognise automatically.
