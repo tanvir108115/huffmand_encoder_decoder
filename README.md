@@ -28,5 +28,5 @@ This is a Huffman encoder and decoder project, which can perform 3 functions. Th
 5. Decoded file size will be equal to the original file size.
 
 ## Future scopes:
-1. Add multithreadig for decompression also.
+1. Add multithreadig for decompression, which will also allow the decompression of large files.
 2. Save file format information in bin file so that decompress function can recognise that automatically.
