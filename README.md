@@ -29,4 +29,4 @@ This is a Huffman encoder and decoder project, which can perform 3 functions. Th
 
 ## Future scopes:
 1. Add multithreadig for decompression also.
-2. Save file format information in bin file so that decompress function can recognise automatically.
+2. Save file format information in bin file so that decompress function can recognise that automatically.
