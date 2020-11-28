@@ -15,7 +15,7 @@ This is a Huffman encoder and decoder project, which can perform 3 functions. Th
 7. Select the operation you want by entering 1, 2 or 3.
 8. For 1 and 3 operation you will only be asked to enter the path to the main file.
 9. For operation 2 you will be asked the encoded file location and the output file format. (IMPORTANT: Without the right format, windows will not be able to open the file)
-10. If only operation 2 is being selected, make sure you have not deleted the "library.txt" file that was created in the same folder as run.py during operation 1.
+10. If operation 2 is being selected, make sure you have not deleted the "library.txt" file that was created in the same folder as "run.py" during operation 1.
 11. After the operation is done it will show the completion message followed by the output path.
 
 ## About this project:
