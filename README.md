@@ -2,7 +2,7 @@
 <h2 align="center"><a  href="https://google.com">Live Demo</a></h2>
 
 ## Description
-This is a Huffman encoder and decoder project, which can perform 3 functions. The first function will encode the input file and save it in "FILENAME.bin" format. The second function can decode the BIN file created by the first function. Finally the third function will perform both function 1 and 2 sequencially. Python Langugage has been used to write the code.
+This is a Huffman encoder and decoder project, which can perform 3 functions. The first function will encode the input file and save it in "FILENAME.bin" format. The second function can decode the BIN file created by the first function. Finally the third function will perform both function 1 and 2 sequencially. Python langugage has been used to write the code.
 
 ## Instruction to run the program:
 1. Download the files named app.py and run.py and save them in the same folder.
@@ -25,6 +25,7 @@ This is a Huffman encoder and decoder project, which can perform 3 functions. Th
 3. It can encode file of any size as long as the disk has enough space. (It requires 2-3 times the space of input file size.)
 3. Decoding for too large file will give Memory error as it was not possible to succesfully implement multithreading and data dumping for large files yet. ( Loss of data was proportional to file size while tried to use multithread for this part.)
 4. If the there is less diversity of data in input file ( ususally for text files), the encoded file size will be less than the input file.
+5. Decoded file size will be equal to the original file size.
 
 ## Future scopes:
 1. Add multithreadig for decompression also.
