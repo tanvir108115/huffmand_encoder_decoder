@@ -1,5 +1,5 @@
 <h1 align="center"> Huffmand encoding and decoding</h1>
-<h2 align="center"><a  href="https://google.com">Live Demo</a></h2>
+<h2 align="center"><a  href="https://youtu.be/GQUxEZRzKP8">Live Demo</a></h2>
 
 ## Description
 This is a Huffman encoder and decoder project, which can perform 3 functions. The first function will encode the input file and save it in "FILENAME.bin" format. The second function can decode the BIN file created by the first function. Finally the third function will perform both function 1 and 2 sequencially. Python langugage has been used to write the code.
