@@ -19,9 +19,9 @@ This is a Huffman encoder and decoder project, which can perform 3 functions. Th
 11. After the operation is done it will show the completion message followed by the output path.
 
 ## About this project:
-1. This project should me able to do Halfman encode and decode for any file format. So far I have tested .txt .jpg .mkv and .rar format.
+1. This project should me able to do Halfman encode and decode for any file format. So far I have tested ".txt" ".jpg" ".mkv" and ".rar" format.
 2. Multithreading has been used for the encoding part.
-3. It can compress file of any size as long as the disk has enough space.
+3. It can compress file of any size as long as the disk has enough space. (Usually it will require 2 times space than the size of file)
 3. Decompressing for too large file will give Memory error as I was not able to succesfully implement multithreading and data dumping for large files yet. ( Loss of data was proportional to file size while tried to use multithread for this part.)
 
 ## Future scopes:
