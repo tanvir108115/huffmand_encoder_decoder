@@ -13,7 +13,7 @@ This is a Huffman encoder and decoder project, which can perform 3 functions. Th
 5. Incase double clicking "run.py" file does not open up the command window, open up the command window on the location where downloaded files from step 1 has been saved.
 6. Copy and paste the following code in the command window and press enter <code>python run.py</code>
 7. Select the operation you want by entering 1, 2 or 3.
-8. For 1 and 3 operation you will only be asked to enter the path to the main file.
+8. For operation 1 and 3, you will only be asked to enter the path to the main file.
 9. For operation 2 you will be asked the encoded file location and the output file format (for example: ".jpg" without the qotes). (IMPORTANT: Without the right format, windows will not be able to open the file)
 ![Instruction 2](https://github.com/tanvir108115/huffmand_encoder_decoder/blob/main/raw/2.gif "Logo Title Text 2")
 10. If operation 2 is being selected, make sure you have not deleted the "library.txt" file that was created in the same folder as "run.py" during operation 1.
