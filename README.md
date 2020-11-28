@@ -17,7 +17,7 @@ This is a Huffman encoder and decoder project, which can perform 3 functions. Th
 9. For operation 2 you will be asked the encoded file location and the output file format (for example: ".jpg" without the qotes). (IMPORTANT: Without the right format, windows will not be able to open the file)
 ![Instruction 2](https://github.com/tanvir108115/huffmand_encoder_decoder/blob/main/raw/2.gif "Logo Title Text 2")
 10. If operation 2 is being selected, make sure you have not deleted the "library.txt" file that was created in the same folder as "run.py" during operation 1.
-11. After the operation is done it will show the completion message followed by the output path.
+11. After the selected operation is done, it will show the completion message followed by the output path.
 
 ## About this project:
 1. This project should be able to do Halfman encoding and decoding for any file format. So far I have tested ".txt", ".jpg", ".mkv", ".docx" and ".rar" format.
